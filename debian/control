@@ -1,0 +1,14 @@
+Source: owlcat
+Section: python
+Priority: extra
+Maintainer: Gijs Molenaar <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0), python-all
+Standards-Version: 3.9.2
+Homepage: https://github.com/ska-sa/owlcat
+X-Python-Version: 2.7
+
+Package: python-owlcat
+Architecture: any
+Depends: ${python:Depends}, ${misc:Depends}, python-pyfits, python-numpy, python-matplotlib,
+ python-casacore, python-kittens, python-meqtrees-cattery
+Description: miscellaneous utility scripts for manipulating radio interferometry data
