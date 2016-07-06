@@ -1,0 +1,6 @@
+pyfits
+numpy
+matplotlib
+pyrap
+meqtrees_cattery
+
