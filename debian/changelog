@@ -1,3 +1,9 @@
+owlcat (1.4.0-1kern1) xenial; urgency=medium
+
+  * first kern release
+
+ -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Wed, 06 Jul 2016 11:24:43 +0000
+
 owlcat (1.4.0-0trusty) trusty; urgency=medium
 
   * new upstream release
