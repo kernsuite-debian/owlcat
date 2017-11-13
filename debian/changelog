@@ -1,3 +1,9 @@
+owlcat (1.4.2-1kern1) xenial; urgency=medium
+
+  * update signature
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 13 Nov 2017 11:19:52 +0200
+
 owlcat (1.4.2-1) xenial; urgency=medium
 
   * new upstream release
