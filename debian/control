@@ -15,7 +15,7 @@ Depends: ${python:Depends},
  python-numpy,
  python-matplotlib,
  python-casacore,
- python-kittens,
+ python-astro-kittens,
  python-meqtrees-cattery
 Description: miscellaneous utility scripts for manipulating interferometry data
 
