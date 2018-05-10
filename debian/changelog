@@ -1,3 +1,10 @@
+owlcat (1.4.2-1kern3) bionic; urgency=medium
+
+  * build for KERN-4 (bionic)
+  * kittens has been renamed
+
+ -- KERN packaging <packaging@kernsuite.info>  Thu, 10 May 2018 14:34:54 +0200
+
 owlcat (1.4.2-1kern2) xenial; urgency=medium
 
   * add missing install statements
