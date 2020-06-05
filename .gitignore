@@ -1,1 +1,6 @@
 build/
+debian/
+.venv*/
+*.egg-info/
+dist/
+build/
