@@ -2,7 +2,7 @@ Source: owlcat
 Section: python
 Priority: extra
 Maintainer: Gijs Molenaar <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 9), python-all
+Build-Depends: debhelper (>= 9), python-all, python-setuptools
 Standards-Version: 4.4.1
 Homepage: https://github.com/ska-sa/owlcat
 X-Python-Version: 2.7

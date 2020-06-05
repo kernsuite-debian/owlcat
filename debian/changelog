@@ -1,3 +1,10 @@
+owlcat (1.6.2-1kern2) bionic; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Add python-setuptools dependency
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 05 Jun 2020 14:56:42 +0200
+
 owlcat (1.6.2-1kern1) bionic; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
