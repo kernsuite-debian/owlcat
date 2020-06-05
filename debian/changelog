@@ -1,3 +1,10 @@
+owlcat (1.6.2-1kern1) bionic; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * New upstream release 1.6.2
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 05 Jun 2020 14:11:34 +0200
+
 owlcat (1.4.2-1kern3) bionic; urgency=medium
 
   * build for KERN-4 (bionic)
