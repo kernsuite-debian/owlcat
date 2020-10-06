@@ -2,25 +2,28 @@ Source: owlcat
 Section: python
 Priority: extra
 Maintainer: Gijs Molenaar <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 9), python-all, python-setuptools
-Standards-Version: 4.4.1
+Build-Depends: debhelper (>= 10),
+ dh-python,
+ python3-all,
+ python3-astropy,
+ python3-casacore,
+ python3-setuptools
+Standards-Version: 4.5.0
 Homepage: https://github.com/ska-sa/owlcat
-X-Python-Version: 2.7
+XS-Python3-Version: >= 3.6
 
-Package: python-owlcat
+Package: python3-owlcat
 Architecture: any
-Depends: ${python:Depends},
+Depends: ${python3:Depends},
  ${misc:Depends},
- python-pyfits,
- python-numpy,
- python-matplotlib,
- python-casacore,
- python-astro-kittens,
- python-meqtrees-cattery
+ python3-numpy,
+ python3-matplotlib,
+ python3-astro-kittens,
+ python3-meqtrees-cattery
 Description: miscellaneous utility scripts for manipulating interferometry data
 
 Package: owlcat
 Architecture: any
-Depends: ${misc:Depends}, python-owlcat
+Depends: ${misc:Depends}, python3-owlcat
 Description: Meta package for python-owlcat
 
