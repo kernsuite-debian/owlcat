@@ -1,0 +1,24 @@
+diff --git a/setup.py b/setup.py
+index 113eea2..56027a4 100755
+--- a/setup.py
++++ b/setup.py
+@@ -14,7 +14,10 @@ install_requires = [
+       'astro-kittens',
+       'future-fstrings',
+       'six',
+-      'future',
++      'future'
++]
++
++extras_require = [
+       'bokeh'
+ ]
+ 
+@@ -27,6 +30,7 @@ setup(name='owlcat',
+       url='https://github.com/ska-sa/owlcat',
+       packages=['Owlcat'],
+       install_requires=install_requires,
++      extras_require={'bokeh': extras_require},
+       scripts=['Owlcat/bin/' + i for i in os.listdir('Owlcat/bin')],
+       data_files=[('Owlcat/bin/', ['Owlcat/bin/commands.list'])],
+       )
