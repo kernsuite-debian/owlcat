@@ -1,3 +1,10 @@
+owlcat (1.7.8.1-1kern1) focal; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * New upstream version 1.7.8.1
+
+ -- KERN packaging <packaging@kernsuite.info>  Sun, 30 Jan 2022 11:49:21 +0000
+
 owlcat (1.7.4-1kern1) focal; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
