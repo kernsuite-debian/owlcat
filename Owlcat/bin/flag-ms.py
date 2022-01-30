@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: future_fstrings -*-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 #
 # % $Id$

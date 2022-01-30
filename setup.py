@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import os
 from setuptools import setup
@@ -19,7 +19,7 @@ install_requires = [
 ]
 
 setup(name='owlcat',
-      version='1.7.4',
+      version='1.7.7',
       python_requires='>=3.6.0',
       description='miscellaneous utility scripts for manipulating radio interferometry data',
       author='Oleg Smirnov',
