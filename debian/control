@@ -5,9 +5,13 @@ Maintainer: Gijs Molenaar <gijs@pythonic.nl>
 Build-Depends: debhelper (>= 11),
  dh-python,
  python3-all,
+ python3-astro-kittens,
  python3-astropy,
  python3-casacore,
  python3-future-fstrings,
+ python3-matplotlib,
+ python3-meqtrees-cattery,
+ python3-numpy,
  python3-setuptools
 Standards-Version: 4.6.1
 Homepage: https://github.com/ska-sa/owlcat
