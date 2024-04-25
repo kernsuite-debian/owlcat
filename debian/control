@@ -1,8 +1,8 @@
 Source: owlcat
 Section: python
 Priority: extra
-Maintainer: Gijs Molenaar <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 11),
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper-compat (= 13),
  dh-python,
  python3-all,
  python3-astro-kittens,
@@ -13,9 +13,9 @@ Build-Depends: debhelper (>= 11),
  python3-meqtrees-cattery,
  python3-numpy,
  python3-setuptools
-Standards-Version: 4.6.1
+Standards-Version: 4.6.2.0
 Homepage: https://github.com/ska-sa/owlcat
-XS-Python3-Version: >= 3.6
+XS-Python3-Version: >= 3.10
 
 Package: python3-owlcat
 Architecture: any
